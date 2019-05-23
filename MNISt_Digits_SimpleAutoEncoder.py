@@ -79,6 +79,14 @@ def plot_compare_histories(history_list, name_list, plot_accuracy=True):
     
     plt.xlim(0, min_epoch-1)
     plt.tight_layout()
+    
+(train_x, train_y), (test_x, test_y) = mnist.load_data()
+train_x = train_x.astype('float32') / 255.0
+test_x = test_x.astype('float32') / 255.0
+train_x = train_x.reshape(-1, 784)
+test_x = test_x.reshape(-1, 784)
+print(train_x.shape)
+print(test_x.shape)
 
 input_size=784
 
@@ -96,7 +104,7 @@ decode_layer2 = Dense(128, activation='relu')(decode_layer1)
 ## output layer
 output_layer  = Dense(784,activation='sigmoid')(decode_layer2)
 
-
+autoencoder = Model(input_layer, output_layer)
 autoencoder.compile(optimizer='adam', loss='binary_crossentropy')
 autoencoder.fit(train_x,train_x, epochs=3)
 
