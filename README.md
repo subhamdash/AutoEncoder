@@ -6,6 +6,7 @@ It is an unsupervised learning technique,If the input features were each indepen
 Direct link to googlecolab for
 
 1.Implementation of simple auto encoder on MNIST digit datset 
+
 https://colab.research.google.com/drive/1hMihEizHGFE6d-xMEKbK434P_JDrhGNR
 
 2.Implementation of simple auto encoder on MNIST Fashion datset 
@@ -13,3 +14,6 @@ https://colab.research.google.com/drive/1Z6PA1Y0KxiguDN3ptVFjGB-AxMbg28qD
 
 3.Implementation of DENOISING auto encoder on MNIST Digit datset
 https://colab.research.google.com/drive/1tPsaCBRip3NCtSIJCsJ16S_INWPz5hYS
+
+4.Implementation of DENOISING auto encoder on MNIST Fashion datset 
+https://colab.research.google.com/drive/1DcTcbkxnlv8p-jphir7FW_d8a2emZph_
