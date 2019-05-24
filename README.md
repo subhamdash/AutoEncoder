@@ -10,3 +10,6 @@ https://colab.research.google.com/drive/1hMihEizHGFE6d-xMEKbK434P_JDrhGNR
 
 2.Implementation of simple auto encoder on MNIST Fashion datset 
 https://colab.research.google.com/drive/1Z6PA1Y0KxiguDN3ptVFjGB-AxMbg28qD
+
+3.Implementation of DENOISING auto encoder on MNIST Digit datset
+https://colab.research.google.com/drive/1tPsaCBRip3NCtSIJCsJ16S_INWPz5hYS
